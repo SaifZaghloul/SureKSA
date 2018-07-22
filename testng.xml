@@ -3,8 +3,7 @@
 <suite name="Suite" parallel="none" preserve-order="true">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="Scripts.SignUpTCs"/>
-      <class name="Scripts.SignInTCs"/>
+      <class name="Scripts.TCs"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

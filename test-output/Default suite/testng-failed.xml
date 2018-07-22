@@ -3,16 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Scripts.SignUpTCs">
+      <class name="Scripts.TCs">
         <methods>
-          <include name="SignUp_InvalidEmailFormat"/>
-          <include name="SignUp_AlreadyUsedEmail"/>
-          <include name="SignUp_PasswordValidation"/>
-          <include name="SignUp_EmptyFields"/>
           <include name="setUp"/>
-          <include name="SignUp_InvalidName"/>
+          <include name="AddItemToCart"/>
         </methods>
-      </class> <!-- Scripts.SignUpTCs -->
+      </class> <!-- Scripts.TCs -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

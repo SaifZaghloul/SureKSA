@@ -17,7 +17,5 @@ public class Config {
 
 		driver.get(url);
 		Thread.sleep(5000);
-
 	}
-
 }
